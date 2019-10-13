@@ -6,3 +6,4 @@ from collections import namedtuple
 
 class NetConfig:
     conv_stride = 1
+    input_dim = 226
