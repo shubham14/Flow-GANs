@@ -6,6 +6,7 @@ import torchvision
 import torch.nn as nn
 from torch.autograd import Variable
 from config import NetConfig
+from torchvision import models
 
 class Generator(nn.Module):
     '''
